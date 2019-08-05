@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="root">
+      <h1>{{ product }}</h1>
+      <h3>Atributos especiales proporcionados por Vue</h3>
+      <p><b>1.) v-bind:title</b></p>
+      <span v-bind:title="message">
+        ¡Pasa el mouse sobre mí durante unos segundos!
+      </span>
+      <p><b>2.) v-if</b></p>
+      <span v-if="seenTrue">Ahora me vez!</span>
+      <br />
+      <span v-if="seenFalse">Ahora no me vez!</span>
+      <p><b>3.) v-for</b></p>
+      <ol>
+        <li v-for="todo in todos">
+          {{ todo.text }}
+        </li>
+      </ol>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
