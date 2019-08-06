@@ -1,4 +1,21 @@
 .navBar {
   font-family: 'Lacquer', sans-serif;
-  color: #ffffff;
+  /* margin-bottom: 10px;
+  overflow: hidden;
+  float: left; */
+}
+.center-items {
+  text-align: center;
+}
+.rectangleGif {
+  text-align: center;
+  height: 250px;
+  width: 250px;
+  display: block;
+  margin: auto;
+}
+.cubeHomeImg {
+  background-image: url('./../img/cubeHome.jpg');
+  display: block;
+  margin: auto;
 }
