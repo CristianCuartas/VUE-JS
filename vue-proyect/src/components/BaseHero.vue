@@ -1,5 +1,6 @@
 <template>
-  <div class="hero" :style="{ backgroundImage: `url('${media}')` }">
+  <div>
+    <img class="hero" src="./../assets/rectangle.gif" />
     <div class="hero-inner">
       <h1 class="hero-title">{{title}}</h1>
       <div class="hero-description">{{message}}</div>
@@ -23,11 +24,8 @@ export default {
 };
 </script>
 <style>
-.hero {
-  font-size: 30px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 80vh;
+img {
+  display: block;
+  margin: auto;
 }
 </style>
