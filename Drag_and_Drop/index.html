@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./src/css/index.css" type="text/css" />
+    <script type="text/javascript" src="src/js/index.js"></script>
+    <title>Drag and Drop TEST</title>
+  </head>
+  <body>
+    <section id="container" ondrop="drop(event)" ondragover="allowDrop(event)">
+      <div class="padre">
+        <div
+          class="tipo"
+          id="fuego"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+        ></div>
+        <div
+          class="tipo"
+          id="agua"
+          ondrop="drop(event)"
+          ondragover="allowDrop(event)"
+        ></div>
+      </div>
+      <img
+        class="pokemon"
+        src="http://i65.tinypic.com/j0itlk.png"
+        id="drag1"
+        name="fuego"
+        draggable="true"
+        ondragstart="drag(event)"
+      />
+      <img
+        class="pokemon"
+        src="http://i65.tinypic.com/214vxts.png"
+        id="drag2"
+        name="agua"
+        draggable="true"
+        ondragstart="drag(event)"
+      />
+      <img
+        class="pokemon"
+        src="http://i66.tinypic.com/ckf41.jpg"
+        id="drag3"
+        name="fuego"
+        draggable="true"
+        ondragstart="drag(event)"
+      />
+      <img
+        class="pokemon"
+        src="http://i66.tinypic.com/2nq5pp3.png"
+        id="drag4"
+        name="agua"
+        draggable="true"
+        ondragstart="drag(event)"
+      />
+    </section>
+    <div id="resultado">
+      ...
+    </div>
+  </body>
+</html>

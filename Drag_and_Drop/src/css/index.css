@@ -1,0 +1,31 @@
+#container {
+  width: 580px;
+  height: 250px;
+  margin: 0 auto;
+  border: 1px solid black;
+  text-align: center;
+}
+.padre {
+  width: 580px;
+  height: 120px;
+  display: flex;
+}
+.tipo {
+  flex-grow: 1;
+}
+#fuego {
+  background-color: orangered;
+}
+#agua {
+  background-color: aqua;
+}
+.pokemon {
+  margin: 10px;
+  width: 80px;
+  height: 80px;
+  cursor: move;
+}
+#resultado {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+}
