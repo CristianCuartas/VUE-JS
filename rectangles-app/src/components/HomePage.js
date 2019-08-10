@@ -30,6 +30,7 @@ import instagram from './../assets/img/instagram.svg';
 import cubeMail from './../assets/img/cubo.svg';
 import rectangleHome from './../assets/img/rectangle.gif';
 import './../assets/css/HomePage.css';
+import {Link} from "react-router-dom";
 
 const items = [
     {
@@ -200,14 +201,18 @@ class HomePage extends Component {
                     <div className="col-md-4"
                     >
                     
-                    <Card>
-                    <CardHeader className="text-center">Contenido Z</CardHeader>
+                    <Card outline color="warning">
+                    <CardHeader className="text-center bg-white text-dark">
+                    Contenido Z
+                    </CardHeader>
                     <CardBody>
                     <CardTitle><img className="rectangleGif" src={rectangleHome} /></CardTitle>
                     <CardText>
                     With supporting text below as a natural lead-in to additional content.
                     </CardText>
                     <Button 
+                        href="http://localhost:8081/index.html" 
+                        target={"_blank"}
                         outline 
                         color="warning" 
                         style={{
@@ -215,68 +220,69 @@ class HomePage extends Component {
                             margin: "auto",
                         }}
                         >
-                        Go somewhere
+                        Ver prototipo Z
                     </Button>
                     </CardBody>
-                    <CardFooter className="text-center">
-                    <i className="fa fa-facebook-official" aria-hidden="true"></i>
-                    &nbsp;
-                    <i className="fa fa-instagram" aria-hidden="true"></i>
-                    &nbsp;
-                    <i className="fa fa-cubes" aria-hidden="true"></i>
+                    <CardFooter className="text-center bg-white text-dark">
+                        <i className="fa fa-tree"></i>
+                        
+                        
                     </CardFooter>
                 </Card>
                 </div>
                 <div className="col-md-4"
                     >
-                    <Card>
-                    <CardHeader className="text-center">Contenido Y</CardHeader>
+                    <Card outline color="warning">
+                    <CardHeader className="text-center bg-white text-dark">
+                    Contenido Y</CardHeader>
                     <CardBody>
                     <CardTitle><img className="rectangleGif" src={rectangleHome} /></CardTitle>
                     <CardText>
                     With supporting text below as a natural lead-in to additional content.</CardText>
                     <Button 
+                        href="http://localhost:8081/index.html" 
+                        target={"_blank"}
                         outline 
                         color="warning" 
                         style={{
                             display: "block",
                             margin: "auto",
-                        }}>
-                        Go somewhere
+                        }}    
+                    >
+                        Ver prototipo Y 
                         </Button>
                     </CardBody>
-                    <CardFooter className="text-center">
-                    <i className="fa fa-facebook-official" aria-hidden="true"></i>
-                    &nbsp;
-                    <i className="fa fa-instagram" aria-hidden="true"></i>
-                    &nbsp;
-                    <i className="fa fa-cubes" aria-hidden="true"></i>
+                    <CardFooter className="text-center bg-white text-dark">
+                    <i class="fa fa-laptop"></i>
+
                     </CardFooter>
                 </Card>
                 </div>
                 <div className="col-md-4"
                 >
-                    <Card>
-                    <CardHeader className="text-center">Contenido X</CardHeader>
+                    <Card outline color="warning">
+                    <CardHeader className="text-center bg-white text-dark">
+                    Contenido X</CardHeader>
                     <CardBody>
-                    <CardTitle><img className="rectangleGif" src={rectangleHome} /></CardTitle>
+                    <CardTitle><img className="rectangleGif" src={rectangleHome}/></CardTitle>
                     <CardText>
                     With supporting text below as a natural lead-in to additional content.
                     </CardText>
-                    <Button outline color="warning" 
-                    style={{
-                        display: "block",
-                        margin: "auto",
-                    }}>
-                    Go somewhere
+                    <Button 
+                        href="http://localhost:8081/index.html" 
+                        target={"_blank"}
+                        outline 
+                        color="warning" 
+                        style={{
+                            display: "block",
+                            margin: "auto",
+                        }}
+                    >
+                    Ver prototipo X
                     </Button>
                     </CardBody>
-                    <CardFooter className="text-center">
-                    <i className="fa fa-facebook-official" aria-hidden="true"></i>
-                    &nbsp;
-                    <i className="fa fa-instagram" aria-hidden="true"></i>
-                    &nbsp;
-                    <i className="fa fa-cubes" aria-hidden="true"></i>
+                    <CardFooter className="text-center bg-white text-dark">
+                    <i className="fa fa-tint"></i>
                     </CardFooter>
                 </Card>
                 </div>
