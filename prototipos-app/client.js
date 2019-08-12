@@ -21,7 +21,7 @@ const  myCylinderSurface = new Surface(
   );
 
   // Load the initial environment
-  r360.compositor.setBackground(r360.getAssetURL('360_ascendor.jpg'));
+  r360.compositor.setBackground(r360.getAssetURL('360_hotel.jpg'));
 }
 
 window.React360 = {init};

@@ -207,7 +207,7 @@ class HomePage extends Component {
                     </CardHeader>
                     <CardBody>
                     <CardTitle><img className="rectangleGif" src={rectangleHome} /></CardTitle>
-                    <CardText>
+                    <CardText className="text-center">
                     With supporting text below as a natural lead-in to additional content.
                     </CardText>
                     <Button 
@@ -237,7 +237,7 @@ class HomePage extends Component {
                     Contenido Y</CardHeader>
                     <CardBody>
                     <CardTitle><img className="rectangleGif" src={rectangleHome} /></CardTitle>
-                    <CardText>
+                    <CardText className="text-center">
                     With supporting text below as a natural lead-in to additional content.</CardText>
                     <Button 
                         href="http://localhost:8081/index.html" 
@@ -253,7 +253,7 @@ class HomePage extends Component {
                         </Button>
                     </CardBody>
                     <CardFooter className="text-center bg-white text-dark">
-                    <i class="fa fa-laptop"></i>
+                    <i className="fa fa-laptop"></i>
 
                     </CardFooter>
                 </Card>
@@ -265,7 +265,7 @@ class HomePage extends Component {
                     Contenido X</CardHeader>
                     <CardBody>
                     <CardTitle><img className="rectangleGif" src={rectangleHome}/></CardTitle>
-                    <CardText>
+                    <CardText className="text-center">
                     With supporting text below as a natural lead-in to additional content.
                     </CardText>
                     <Button 
@@ -279,6 +279,35 @@ class HomePage extends Component {
                         }}
                     >
                     Ver prototipo X
+                    </Button>
+                    </CardBody>
+                    <CardFooter className="text-center bg-white text-dark">
+                    <i className="fa fa-tint"></i>
+                    </CardFooter>
+                </Card>
+                </div>
+                
+                <div className="col-md-12" style={{marginTop:"50px"}}
+                >
+                    <Card outline color="warning">
+                    <CardHeader className="text-center bg-white text-dark">
+                    Diseña tu espacio</CardHeader>
+                    <CardBody>
+                    <CardTitle><img className="rectangleGif" src={rectangleHome}/></CardTitle>
+                    <CardText className="text-center">
+                    Prueba de modificaciones
+                    </CardText>
+                    <Button 
+                        href="#create" 
+                        target={"_blank"}
+                        outline 
+                        color="warning" 
+                        style={{
+                            display: "block",
+                            margin: "auto",
+                        }}
+                    >
+                    Crear
                     </Button>
                     </CardBody>
                     <CardFooter className="text-center bg-white text-dark">
