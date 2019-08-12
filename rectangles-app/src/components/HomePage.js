@@ -63,14 +63,14 @@ class HomePage extends Component {
             collapsed:!this.state.collapsed
         })
     }
-    onClickMoreDownPrototipos = () => {
+    onClickMoreDownPrototipos = (e) => {
         scroll.scrollMore(351);
       }
       onClickMoreDownZonas = () => {
         scroll.scrollMore(1000);
       }
       onClickMoreDownInstalcion = () => {
-        scroll.scrollMore(1670);
+        scroll.scrollMore(1650);
       }
       onClickMoreDownTransporte = () => {
         scroll.scrollToBottom();
@@ -189,7 +189,7 @@ class HomePage extends Component {
                 </div>
                 </div>
                 </div>
-                <div 
+                <div
                     className="container"
                     style={{marginTop:"80px"}}
                 >
@@ -198,7 +198,7 @@ class HomePage extends Component {
                 <br/>
                 <div className="row" style={{backgroundColor:"#F6F7C2"}}>
                 
-                    <div className="col-md-4"
+                    <div className="col-md-3"
                     >
                     
                     <Card outline color="warning">
@@ -230,7 +230,7 @@ class HomePage extends Component {
                     </CardFooter>
                 </Card>
                 </div>
-                <div className="col-md-4"
+                <div className="col-md-3"
                     >
                     <Card outline color="warning">
                     <CardHeader className="text-center bg-white text-dark">
@@ -258,7 +258,7 @@ class HomePage extends Component {
                     </CardFooter>
                 </Card>
                 </div>
-                <div className="col-md-4"
+                <div className="col-md-3"
                 >
                     <Card outline color="warning">
                     <CardHeader className="text-center bg-white text-dark">
@@ -286,8 +286,7 @@ class HomePage extends Component {
                     </CardFooter>
                 </Card>
                 </div>
-                
-                <div className="col-md-12" style={{marginTop:"50px"}}
+                <div className="col-md-3"
                 >
                     <Card outline color="warning">
                     <CardHeader className="text-center bg-white text-dark">
@@ -295,7 +294,7 @@ class HomePage extends Component {
                     <CardBody>
                     <CardTitle><img className="rectangleGif" src={rectangleHome}/></CardTitle>
                     <CardText className="text-center">
-                    Prueba de modificaciones
+                    With supporting text below as a natural lead-in to additional content.
                     </CardText>
                     <Button 
                         href="#create" 
